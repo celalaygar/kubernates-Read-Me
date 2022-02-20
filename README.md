@@ -14,3 +14,6 @@ kubectl edit deploy POD_NAME
 
 ### POD logs (stdout)
 kubectl logs POD_NAME CONTAINER_NAME -f                                 
+
+### POD Deploy Information
+kubectl get deployment -o wide                                
