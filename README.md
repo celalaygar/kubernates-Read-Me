@@ -13,4 +13,4 @@ kubectl scale deployment POD_NAME --replicas=0    or 1
 kubectl edit deploy POD_NAME
 
 ### POD logs (stdout)
-kubectl logs POD_NAME -f                                 
+kubectl logs POD_NAME CONTAINER_NAME -f                                 
