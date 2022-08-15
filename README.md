@@ -23,3 +23,11 @@ kubectl get ns
 
 ### usage grep commend 
 kubectl get ns | grep cecece
+
+### deploying detail
+kubectl get pods -n NAME_SPACE_NAME -o wide
+kubectl get pods -n dev_dev -o wide
+
+
+### usage svc
+kubectl get svc -n NAME_SPACE_NAME
