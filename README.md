@@ -17,3 +17,9 @@ kubectl logs POD_NAME CONTAINER_NAME -f
 
 ### POD Deploy Information
 kubectl get deployment -o wide                                
+
+### Namespace listing
+kubectl get ns
+
+### usage grep commend 
+kubectl get ns | grep cecece
